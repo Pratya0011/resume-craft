@@ -40,7 +40,7 @@ function UpdateSkills() {
     dispatch(createUpdatedPost(data))
     dispatch(onSubmitUpdate())
     navigate('/')
-    window.location.reload()
+    
   }
   return (
     <div>

@@ -1,4 +1,4 @@
-import { React, useEffect } from "react";
+import { React, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchResume, deletePost, viewData } from "./HomeSlice";
@@ -7,6 +7,7 @@ import { updateDetails } from "../UpdateData/UpdateData";
 
 function Home() {
   const selector=useSelector((state) => state.allResume.resume);
+  const [arr, setArr]= useState('')
   const dispatch = useDispatch();
   const navigate = useNavigate()
 
@@ -20,6 +21,7 @@ function Home() {
 
   const deleteData=(id)=>{
     dispatch(deletePost(id))
+    window.location.reload() 
   }
 
   const updateData=(data)=>{
