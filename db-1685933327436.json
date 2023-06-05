@@ -1,0 +1,120 @@
+{
+  "api": [
+    {
+      "data": [
+        {
+          "name": "JYOTI VYAS",
+          "email": "JyotiVyas@gmail.com",
+          "address": "makrana, m nhi jana",
+          "number": "858585858587",
+          "website": "hhhfhfhfh",
+          "designation": "FULL STACK LEARNER"
+        },
+        {
+          "about": "hi my name is jyoti, and today i am going"
+        },
+        {
+          "education": [
+            {
+              "school": "purnima",
+              "startDate": "2023-06-01",
+              "endDate": "2023-06-07",
+              "about": "ggggggg"
+            }
+          ]
+        },
+        {
+          "experience": [
+            {
+              "designation": "master in react",
+              "companny": "",
+              "tenure": "subh se ab tak",
+              "location": "jdjdjjd",
+              "description": "fjjfjfjjfj",
+              "company": "upgrad"
+            }
+          ]
+        },
+        {
+          "project": [
+            {
+              "title": "subh ho gyi mamu",
+              "tenure": "wo to honi",
+              "projectUrl": "hi",
+              "projectDescription": "thi"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "skills": "html",
+              "level": "4"
+            },
+            {
+              "skills": "css",
+              "level": "4"
+            }
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "data": [
+        {
+          "name": "Vikash Tomar",
+          "email": "vikash.tomar.india@gmail.com",
+          "address": "Farah Mathura",
+          "number": "89787978969",
+          "website": "vikash@.com",
+          "designation": "Mathura (farah)"
+        },
+        {
+          "about": "I am cool Boy"
+        },
+        {
+          "education": [
+            {
+              "school": "pata tha",
+              "startDate": "2022-02-02",
+              "endDate": "2023-02-02",
+              "about": "bca"
+            }
+          ]
+        },
+        {
+          "experience": [
+            {
+              "designation": "upgrade",
+              "companny": "",
+              "tenure": "iwchw",
+              "location": "idhwih",
+              "description": "hwihdidh",
+              "company": "knowledge"
+            }
+          ]
+        },
+        {
+          "project": [
+            {
+              "title": "resume build..",
+              "tenure": "his",
+              "projectUrl": "kwkhk",
+              "projectDescription": "jlddhwhfejhjw"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "skills": "front ",
+              "level": 0
+            }
+          ]
+        }
+      ],
+      "id": 2
+    }
+  ]
+}

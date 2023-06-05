@@ -1,0 +1,78 @@
+{
+  "api": [
+    {
+      "data": [
+        {
+          "name": "Pratya Kumar Tagore",
+          "email": "pratya0011@gmail.com",
+          "address": "Purbachal Main Road\n737/A Purbachal Main Road",
+          "number": "54386",
+          "website": "dfgfdgdfg",
+          "designation": "js"
+        },
+        {
+          "about": "vdsvdsv"
+        },
+        {
+          "education": [
+            {
+              "school": "msit",
+              "startDate": "2023-06-04",
+              "endDate": "2023-06-04",
+              "about": "vdvdv"
+            }
+          ]
+        },
+        {
+          "experience": [
+            {
+              "designation": "js",
+              "companny": "",
+              "tenure": "vdvsdv",
+              "location": "vsdvsdv",
+              "description": "vsdvsdv",
+              "company": "ms"
+            },
+            {
+              "designation": "vsdvsdv",
+              "companny": "",
+              "tenure": "vsdvdv",
+              "location": "vsdvsdvv",
+              "description": "sdvsdv",
+              "company": "vsdvsdv"
+            }
+          ]
+        },
+        {
+          "project": [
+            {
+              "title": "vsdvsdv",
+              "tenure": "vsdvsdv",
+              "projectUrl": "vsdvsdv",
+              "projectDescription": "vsdvdsv"
+            },
+            {
+              "title": "vsdvdsv",
+              "tenure": "vsdvsdv",
+              "projectUrl": "vsdvsdv",
+              "projectDescription": "vsdvsdv"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "skills": "Basic C language, HTML,CSS, JAVASCRIPT,REACTJS,NODEJS,MONGODB",
+              "level": "2"
+            },
+            {
+              "skills": "vxvxcv",
+              "level": "1"
+            }
+          ]
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
