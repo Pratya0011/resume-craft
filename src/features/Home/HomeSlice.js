@@ -41,10 +41,12 @@ export const homeSlice = createSlice({
     initialState,
     reducers : {
         addPersonalDetails: (state,action)=>{
-            state.setResume = [...state.setResume, action.payload]
+            state.setResume = [action.payload]
+            console.log(state.setResume)
         },
         addAbout: (state,action)=>{
-            state.setResume = [...state.setResume, action.payload]  
+            state.setResume = [...state.setResume, action.payload]
+            console.log(state.setResume)
         },
         addEducation:(state,action)=>{
             state.setResume = [...state.setResume, action.payload]
@@ -73,7 +75,7 @@ export const homeSlice = createSlice({
         [fetchResume.fulfilled]: (state, action)=>{
             state.loading = false;
             state.resume = action.payload
-            
+            console.log(state.resume)
         },
         [fetchResume.rejected]: (state)=>{
             state.loading = true;

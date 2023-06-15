@@ -24,8 +24,9 @@ function Personal() {
             address:address,
             number:number,
             website:website,
-            designation:designation
+            designation:designation,
         }
+
         dispatch(addPersonalDetails(personalDetails))
         navigate('/about')
     };

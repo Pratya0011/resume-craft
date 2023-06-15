@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { addAbout } from "../features/Home/HomeSlice";
+import { addPersonalDetails,addAbout } from "../features/Home/HomeSlice";
 
 function About() {
   const [about, setAbout] = useState("");
@@ -10,8 +10,9 @@ function About() {
   const dispatch = useDispatch()
   const navigate = useNavigate()
 
- const onSubmitHandler=()=>{
-  const aboutObj= {
+ const onSubmitHandler=(e)=>{
+e.preventDefault()
+  const aboutObj = {
     about:about
   }
   dispatch(addAbout(aboutObj))

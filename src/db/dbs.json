@@ -1,3 +1,248 @@
 {
-  "api": []
+  "api": [
+    {
+      "data": [
+        {
+          "name": "Pratya Kumar Tagore",
+          "email": "pratya0011@gmail.com",
+          "address": "Purbachal Main Road\n737/A Purbachal Main Road",
+          "number": "54386",
+          "website": "dfgfdgdfg",
+          "designation": "js"
+        },
+        {
+          "about": "hfghfgh"
+        },
+        {
+          "education": [
+            {
+              "school": "msit",
+              "startDate": "2023-06-13",
+              "endDate": "2023-06-13",
+              "about": "btech"
+            }
+          ]
+        },
+        {
+          "experience": [
+            {
+              "designation": "js",
+              "companny": "",
+              "tenure": "2000",
+              "location": "india",
+              "description": "jhgfdsa",
+              "company": "ms"
+            }
+          ]
+        },
+        {
+          "project": [
+            {
+              "title": "hfgh",
+              "tenure": "2000",
+              "projectUrl": "fsdfsdf",
+              "projectDescription": "hfghfh"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "skills": "Basic C language, HTML,CSS, JAVASCRIPT,REACTJS,NODEJS,MONGODB",
+              "level": "2"
+            }
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "data": [
+        {
+          "name": "Pratya Kumar",
+          "email": "pratya0011@gmail.com",
+          "address": "Purbachal Main Road",
+          "number": "54386",
+          "website": "www.google.com",
+          "designation": "js"
+        },
+        {
+          "about": "hi"
+        },
+        {
+          "education": [
+            {
+              "school": "msit",
+              "startDate": "2023-06-13",
+              "endDate": "2023-06-13",
+              "about": "btech"
+            },
+            {
+              "school": "msit",
+              "startDate": "2023-06-13",
+              "endDate": "2023-06-13",
+              "about": "btech"
+            }
+          ]
+        },
+        {
+          "experience": [
+            {
+              "designation": "js",
+              "companny": "",
+              "tenure": "2000",
+              "location": "india",
+              "description": "jhgfdsa",
+              "company": "ms"
+            }
+          ]
+        },
+        {
+          "project": [
+            {
+              "title": "gfdsdfs",
+              "tenure": "fsdfdf",
+              "projectUrl": "fdfdf",
+              "projectDescription": "fdfdfdf"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "skills": "Basic C language, HTML,CSS, JAVASCRIPT,REACTJS,NODEJS,MONGODB",
+              "level": "2"
+            }
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "data": [
+        {
+          "name": "Pratya Kumar Tagore",
+          "email": "pratya0011@gmail.com",
+          "address": "Purbachal Main Road\n737/A Purbachal Main Road",
+          "number": "54386",
+          "website": "dfgfdgdfg",
+          "designation": "js"
+        },
+        {
+          "about": "chghgvhgjh"
+        },
+        {
+          "education": [
+            {
+              "school": "msit",
+              "startDate": "2023-06-15",
+              "endDate": "2023-06-15",
+              "about": "btech"
+            }
+          ]
+        },
+        {
+          "experience": [
+            {
+              "designation": "js",
+              "companny": "",
+              "tenure": "2000",
+              "location": "india",
+              "description": "jhgfdsa",
+              "company": "ms"
+            }
+          ]
+        },
+        {
+          "project": [
+            {
+              "title": "ghfhfhf",
+              "tenure": "jjffuvuy",
+              "projectUrl": "ugiugug",
+              "projectDescription": "yguygyuyguhg"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "skills": "bfgbgfb",
+              "level": "2"
+            }
+          ]
+        }
+      ],
+      "id": 4
+    },
+    {
+      "data": [
+        {
+          "name": "Pratya",
+          "email": "pratyatagore@gmail.com",
+          "address": "Purbachal Main Road",
+          "number": "54386",
+          "website": "www.google.com",
+          "designation": "js"
+        },
+        {
+          "about": "hi"
+        },
+        {
+          "education": [
+            {
+              "school": "msit",
+              "startDate": "2023-06-15",
+              "endDate": "2023-06-15",
+              "about": "btech"
+            },
+            {
+              "school": "msit",
+              "startDate": "2023-06-15",
+              "endDate": "2023-06-15",
+              "about": "fsdff"
+            }
+          ]
+        },
+        {
+          "experience": [
+            {
+              "designation": "js",
+              "companny": "",
+              "tenure": "fsdfsdf",
+              "location": "india",
+              "description": "jhgfdsa",
+              "company": "ms"
+            },
+            {
+              "designation": "Developer",
+              "companny": "",
+              "tenure": "2000",
+              "location": "sfsdf",
+              "description": "",
+              "company": "ms"
+            }
+          ]
+        },
+        {
+          "project": [
+            {
+              "title": "fjgjgjhgjhg",
+              "tenure": "gjhghgg",
+              "projectUrl": "kjkhggghhg",
+              "projectDescription": "jhbvggkjgbkjgb"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "skills": "Basic C language, HTML,CSS, JAVASCRIPT,REACTJS,NODEJS,MONGODB",
+              "level": "3"
+            }
+          ]
+        }
+      ],
+      "id": 5
+    }
+  ]
 }
