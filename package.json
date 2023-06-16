@@ -2,7 +2,7 @@
   "name": "resume-craft-start",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3030",
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start:dev": "react-scripts start",
-    "start:backend": "json-server --watch ./src/db/dbs.json --port 3030",
+    "start:backend": "json-server --watch ./src/db/dbs.json --port 5000",
     "start": "npm-run-all -p start:backend start:dev",
     "build": "react-scripts build",
     "test": "react-scripts test",

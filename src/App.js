@@ -23,7 +23,7 @@ function App() {
         <h1 className="header">Resume Craft</h1>
         <Router>
           <Link to="/" className="homeBtn">
-            Home
+            Back to Home
           </Link>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>

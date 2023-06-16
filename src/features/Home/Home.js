@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchResume, deletePost, viewData } from "./HomeSlice";
 import { updateDetails } from "../UpdateData/UpdateData";
+import img from '../../img.jpg'
 
 function Home() {
   const selector = useSelector((state) => state.allResume.resume);
@@ -44,18 +45,20 @@ function Home() {
         <div className="plus">+</div>
         <div className="build">Build</div>
       </div>
-      <div>
+      <div className="dataContainer">
         {selector.map((data) => (
-          <div>
+          <div className="singleContainer">
             <div className="showResumeName">{data.data[0].name}</div>
-            <div className="btns">
+            <img src={img}/>
+            <div className="project-btns">
+              <div>
               <button
                 onClick={() => {
                   viewResume(data);
                 }}
                 id="btn1"
               >
-                View
+                <i className="fa fa-eye" aria-hidden="true"></i>
               </button>
               <button
                 onClick={() => {
@@ -63,7 +66,7 @@ function Home() {
                 }}
                 id="btn2"
               >
-                Edit
+                <i className="fas fa-edit"></i>
               </button>
               <button
                 onClick={() => {
@@ -71,8 +74,9 @@ function Home() {
                 }}
                 id="btn3"
               >
-                Delete
+                <i className="fa fa-trash" aria-hidden="true"></i>
               </button>
+              </div>
             </div>
           </div>
         ))}

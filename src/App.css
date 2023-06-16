@@ -1,9 +1,28 @@
+*{
+  font-family: sans-serif;
+}
+body{
+  background-color: #001f3f;
+}
+.header{
+  margin-left: 3rem;
+  color: #39CCCC;
+}
+.homeBtn{
+  margin-left: 3rem;
+  text-decoration: none;
+  color:#E5E5E5 ;
+}
 .home{
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   align-items: center;
+  padding: 0px;
+  background-color: #E5E5E5;
+  margin-top: 20px;
+  height: 85vh;
 }
 #buildBtn{
   width: 6vw;
@@ -18,8 +37,53 @@
   height: 6vh;
   font-size: 1.5rem;
 }
-
-
+.para{
+  color:#39CCCC ;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.dataContainer{
+  margin-top :3em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.singleContainer{
+  position: relative;
+  padding:.5em;
+  cursor: pointer;
+}
+.showResumeName{
+  margin: 1rem;
+  font-weight: 600;
+}
+.singleContainer img{
+  box-shadow: 0px 10px 20px rgb(121, 120, 120);
+  height:140px;
+  width:200px;
+}
+.project-btns{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  top: 3.7rem;
+  left: 0.5rem;
+  width: 200px;
+  height: 140px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 1s linear;
+  cursor: pointer;
+}
+.project-btns button{
+ margin: 0 10px 10px 0 ;
+ background-color: white;
+ border: none;
+}
+.singleContainer:hover .project-btns{
+  visibility: visible;
+  opacity: 1;
+}
 
 
 /* media- query */

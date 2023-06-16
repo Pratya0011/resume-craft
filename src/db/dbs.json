@@ -59,68 +59,6 @@
     {
       "data": [
         {
-          "name": "Pratya Kumar",
-          "email": "pratya0011@gmail.com",
-          "address": "Purbachal Main Road",
-          "number": "54386",
-          "website": "www.google.com",
-          "designation": "js"
-        },
-        {
-          "about": "hi"
-        },
-        {
-          "education": [
-            {
-              "school": "msit",
-              "startDate": "2023-06-13",
-              "endDate": "2023-06-13",
-              "about": "btech"
-            },
-            {
-              "school": "msit",
-              "startDate": "2023-06-13",
-              "endDate": "2023-06-13",
-              "about": "btech"
-            }
-          ]
-        },
-        {
-          "experience": [
-            {
-              "designation": "js",
-              "companny": "",
-              "tenure": "2000",
-              "location": "india",
-              "description": "jhgfdsa",
-              "company": "ms"
-            }
-          ]
-        },
-        {
-          "project": [
-            {
-              "title": "gfdsdfs",
-              "tenure": "fsdfdf",
-              "projectUrl": "fdfdf",
-              "projectDescription": "fdfdfdf"
-            }
-          ]
-        },
-        {
-          "skills": [
-            {
-              "skills": "Basic C language, HTML,CSS, JAVASCRIPT,REACTJS,NODEJS,MONGODB",
-              "level": "2"
-            }
-          ]
-        }
-      ],
-      "id": 2
-    },
-    {
-      "data": [
-        {
           "name": "Pratya Kumar Tagore",
           "email": "pratya0011@gmail.com",
           "address": "Purbachal Main Road\n737/A Purbachal Main Road",
@@ -243,6 +181,118 @@
         }
       ],
       "id": 5
+    },
+    {
+      "data": [
+        {
+          "name": "vikas",
+          "email": "pratya0011@gmail.com",
+          "address": "Purbachal Main Road\n737/A Purbachal Main Road",
+          "number": "54386",
+          "website": "www.google.com",
+          "designation": "js"
+        },
+        {
+          "about": "hgfhgfh"
+        },
+        {
+          "education": [
+            {
+              "school": "msit",
+              "startDate": "2023-06-16",
+              "endDate": "2023-06-16",
+              "about": "hgfhgfh"
+            }
+          ]
+        },
+        {
+          "experience": [
+            {
+              "designation": "hgfhgfh",
+              "companny": "",
+              "tenure": "hfghfgh",
+              "location": "hfghgfh",
+              "description": "hgfhgfh",
+              "company": "hfghgfh"
+            }
+          ]
+        },
+        {
+          "project": [
+            {
+              "title": "hgfhgfh",
+              "tenure": "hfghfgh",
+              "projectUrl": "gfhfgh",
+              "projectDescription": "hfghgfh"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "skills": "hgfhgf",
+              "level": "2"
+            }
+          ]
+        }
+      ],
+      "id": 7
+    },
+    {
+      "data": [
+        {
+          "name": "jyoti",
+          "email": "pratya0011@gmail.com",
+          "address": "Purbachal Main Road",
+          "number": "54386",
+          "website": "www.google.com",
+          "designation": "js"
+        },
+        {
+          "about": "hi"
+        },
+        {
+          "education": [
+            {
+              "school": "msit",
+              "startDate": "2023-06-16",
+              "endDate": "2023-06-16",
+              "about": "btech"
+            }
+          ]
+        },
+        {
+          "experience": [
+            {
+              "designation": "js",
+              "companny": "",
+              "tenure": "2000",
+              "location": "india",
+              "description": "jhgfdsa",
+              "company": "ms"
+            }
+          ]
+        },
+        {
+          "project": [
+            {
+              "title": "asdaf",
+              "tenure": "fsfdf",
+              "projectUrl": "dfdfdf",
+              "projectDescription": "dfsdfsdf"
+            }
+          ]
+        },
+        {
+          "skills": [
+            {
+              "skills": "Basic C language, HTML,CSS, JAVASCRIPT,REACTJS,NODEJS,MONGODB",
+              "level": "2"
+            }
+          ]
+        }
+      ],
+      "id": 8
     }
   ]
 }
