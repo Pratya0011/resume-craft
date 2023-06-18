@@ -88,7 +88,7 @@ function UpdateEducation() {
                 handleChange(e, index);
               }}
             />
-            <label htmlFor="about">About Degree/Cirtification</label>
+            <label htmlFor="about">About Degree/Certification</label>
             <input
               name="about"
               type="text"

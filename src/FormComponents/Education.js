@@ -76,7 +76,7 @@ function Education() {
             />
             </div>
             <div className='smallbox'>
-            <label htmlFor="endDate">End Date:</label>
+            <label htmlFor="endDate">End Date</label>
             <input
             name="endDate"
               type="date"
@@ -85,7 +85,7 @@ function Education() {
                 handleChange(e,index);
               }}
             />
-            <label htmlFor="about">About Degree/Cirtification:</label>
+            <label htmlFor="about">About Degree/Certification</label>
             <input
             name="about"
               type="text"

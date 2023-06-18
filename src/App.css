@@ -87,6 +87,7 @@ body{
 }
 .persnolResume ,.aboutResume, .educationResume, .expResume, .projectResume, .skillResume{
   padding: 20px;
+  margin-top: 20px;
   background-color: white;
   display: flex;
   flex-direction: column;
