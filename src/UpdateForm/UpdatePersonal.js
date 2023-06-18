@@ -38,8 +38,11 @@ function UpdatePersonal() {
     navigate('/update/about')
   }
   return (
-    <div>
+    <div className='persnolResume'>
+      <h2>Personal Details</h2>
+      <div className="formContainer">
       <form onSubmit={onSubmitHandler}>
+      <div className='smallbox'>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -60,6 +63,8 @@ function UpdatePersonal() {
           }}
           required
         />
+        </div>
+        <div className='smallbox'>
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -80,6 +85,7 @@ function UpdatePersonal() {
           }}
           required
         />
+        </div>
         <label htmlFor="address">Address</label>
         <textarea
           type="text"
@@ -100,6 +106,7 @@ function UpdatePersonal() {
         />
         <button type="submit">Save & Next</button>
       </form>
+      </div>
     </div>
   );
 }

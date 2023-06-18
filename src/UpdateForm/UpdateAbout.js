@@ -21,7 +21,9 @@ function UpdateAbout() {
     navigate('/update/Education')
   }
   return (
-    <div>
+    <div className="aboutResume">
+      <h2>About</h2>
+      <div className="formContainer">
       <form onSubmit={onSubmitHandler}>
         <label htmlFor="about">About</label>
         <textarea
@@ -36,6 +38,7 @@ function UpdateAbout() {
         />
         <button type="submit">Save & Next</button>
       </form>
+      </div>
     </div>
   )
 }

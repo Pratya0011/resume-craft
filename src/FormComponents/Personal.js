@@ -33,7 +33,9 @@ function Personal() {
   return (
     <div className='persnolResume'>
     <h2>Personal Details</h2>
+    <div className="formContainer">
       <form onSubmit={onSubmitHandler}>
+        <div className='smallbox'>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -54,6 +56,8 @@ function Personal() {
           }}
           required
         />
+        </div>
+        <div className='smallbox'>
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -64,6 +68,7 @@ function Personal() {
           }}
           required
         />
+        
         <label htmlFor="number">Contact:</label>
         <input
           type="number"
@@ -74,7 +79,8 @@ function Personal() {
           }}
           required
         />
-        <label htmlFor="address">Address</label>
+        </div>
+        <label htmlFor="address">Address:</label>
         <textarea
           type="text"
           id="address"
@@ -83,7 +89,7 @@ function Personal() {
             setAddress(e.target.value);
           }}
         />
-        <label htmlFor="website">Website</label>
+        <label htmlFor="website">Website:</label>
         <input
           type="text"
           id="website"
@@ -94,6 +100,7 @@ function Personal() {
         />
         <button type="submit">Save & Next</button>
       </form>
+      </div>
     </div>
   )
 }

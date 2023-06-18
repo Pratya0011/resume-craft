@@ -6,293 +6,89 @@
           "name": "Pratya Kumar Tagore",
           "email": "pratya0011@gmail.com",
           "address": "Purbachal Main Road\n737/A Purbachal Main Road",
-          "number": "54386",
-          "website": "dfgfdgdfg",
-          "designation": "js"
+          "number": "8240428488",
+          "website": "www.google.com",
+          "designation": "Developer"
         },
         {
-          "about": "hfghfgh"
+          "about": " A passionate Full Stack Developer dedicated to learn and adapt to emerging technologies and develop and\n deploy scalable and inovative web applications by seamlessly integrating front-end and back-end technologies."
         },
         {
           "education": [
             {
-              "school": "msit",
-              "startDate": "2023-06-13",
-              "endDate": "2023-06-13",
-              "about": "btech"
+              "school": "Meghnad Saha Institute Of Technology",
+              "startDate": "2016-06-10",
+              "endDate": "2020-07-18",
+              "about": "B tech"
+            },
+            {
+              "school": "The St'Xavies School Malda",
+              "startDate": "2014-04-18",
+              "endDate": "2015-04-18",
+              "about": "Secondary"
+            },
+            {
+              "school": "North Point English Academy",
+              "startDate": "2012-12-03",
+              "endDate": "2013-12-03",
+              "about": "High School"
             }
           ]
         },
         {
           "experience": [
             {
-              "designation": "js",
+              "designation": "Developer",
               "companny": "",
-              "tenure": "2000",
-              "location": "india",
-              "description": "jhgfdsa",
-              "company": "ms"
+              "tenure": "2012",
+              "location": "India",
+              "description": "Frront End Developer",
+              "company": "Upgrad"
+            },
+            {
+              "designation": "Developer",
+              "companny": "",
+              "tenure": "2015",
+              "location": "India",
+              "description": "Back End Developer",
+              "company": "Demo Company"
             }
           ]
         },
         {
           "project": [
             {
-              "title": "hfgh",
-              "tenure": "2000",
-              "projectUrl": "fsdfsdf",
-              "projectDescription": "hfghfh"
+              "title": "Pizza Mania",
+              "tenure": "2 months",
+              "projectUrl": "www.google.com",
+              "projectDescription": "Pizza Ordering Website"
+            },
+            {
+              "title": "ArenaMart",
+              "tenure": "2 weeks",
+              "projectUrl": "www.google.com",
+              "projectDescription": "E-commerce Website"
             }
           ]
         },
         {
           "skills": [
             {
-              "skills": "Basic C language, HTML,CSS, JAVASCRIPT,REACTJS,NODEJS,MONGODB",
-              "level": "2"
+              "skills": "Html",
+              "level": "poficent"
+            },
+            {
+              "skills": "css",
+              "level": "proficent"
+            },
+            {
+              "skills": "react",
+              "level": "proficent"
             }
           ]
         }
       ],
       "id": 1
-    },
-    {
-      "data": [
-        {
-          "name": "Pratya Kumar Tagore",
-          "email": "pratya0011@gmail.com",
-          "address": "Purbachal Main Road\n737/A Purbachal Main Road",
-          "number": "54386",
-          "website": "dfgfdgdfg",
-          "designation": "js"
-        },
-        {
-          "about": "chghgvhgjh"
-        },
-        {
-          "education": [
-            {
-              "school": "msit",
-              "startDate": "2023-06-15",
-              "endDate": "2023-06-15",
-              "about": "btech"
-            }
-          ]
-        },
-        {
-          "experience": [
-            {
-              "designation": "js",
-              "companny": "",
-              "tenure": "2000",
-              "location": "india",
-              "description": "jhgfdsa",
-              "company": "ms"
-            }
-          ]
-        },
-        {
-          "project": [
-            {
-              "title": "ghfhfhf",
-              "tenure": "jjffuvuy",
-              "projectUrl": "ugiugug",
-              "projectDescription": "yguygyuyguhg"
-            }
-          ]
-        },
-        {
-          "skills": [
-            {
-              "skills": "bfgbgfb",
-              "level": "2"
-            }
-          ]
-        }
-      ],
-      "id": 4
-    },
-    {
-      "data": [
-        {
-          "name": "Pratya",
-          "email": "pratyatagore@gmail.com",
-          "address": "Purbachal Main Road",
-          "number": "54386",
-          "website": "www.google.com",
-          "designation": "js"
-        },
-        {
-          "about": "hi"
-        },
-        {
-          "education": [
-            {
-              "school": "msit",
-              "startDate": "2023-06-15",
-              "endDate": "2023-06-15",
-              "about": "btech"
-            },
-            {
-              "school": "msit",
-              "startDate": "2023-06-15",
-              "endDate": "2023-06-15",
-              "about": "fsdff"
-            }
-          ]
-        },
-        {
-          "experience": [
-            {
-              "designation": "js",
-              "companny": "",
-              "tenure": "fsdfsdf",
-              "location": "india",
-              "description": "jhgfdsa",
-              "company": "ms"
-            },
-            {
-              "designation": "Developer",
-              "companny": "",
-              "tenure": "2000",
-              "location": "sfsdf",
-              "description": "",
-              "company": "ms"
-            }
-          ]
-        },
-        {
-          "project": [
-            {
-              "title": "fjgjgjhgjhg",
-              "tenure": "gjhghgg",
-              "projectUrl": "kjkhggghhg",
-              "projectDescription": "jhbvggkjgbkjgb"
-            }
-          ]
-        },
-        {
-          "skills": [
-            {
-              "skills": "Basic C language, HTML,CSS, JAVASCRIPT,REACTJS,NODEJS,MONGODB",
-              "level": "3"
-            }
-          ]
-        }
-      ],
-      "id": 5
-    },
-    {
-      "data": [
-        {
-          "name": "vikas",
-          "email": "pratya0011@gmail.com",
-          "address": "Purbachal Main Road\n737/A Purbachal Main Road",
-          "number": "54386",
-          "website": "www.google.com",
-          "designation": "js"
-        },
-        {
-          "about": "hgfhgfh"
-        },
-        {
-          "education": [
-            {
-              "school": "msit",
-              "startDate": "2023-06-16",
-              "endDate": "2023-06-16",
-              "about": "hgfhgfh"
-            }
-          ]
-        },
-        {
-          "experience": [
-            {
-              "designation": "hgfhgfh",
-              "companny": "",
-              "tenure": "hfghfgh",
-              "location": "hfghgfh",
-              "description": "hgfhgfh",
-              "company": "hfghgfh"
-            }
-          ]
-        },
-        {
-          "project": [
-            {
-              "title": "hgfhgfh",
-              "tenure": "hfghfgh",
-              "projectUrl": "gfhfgh",
-              "projectDescription": "hfghgfh"
-            }
-          ]
-        },
-        {
-          "skills": [
-            {
-              "skills": "hgfhgf",
-              "level": "2"
-            }
-          ]
-        }
-      ],
-      "id": 7
-    },
-    {
-      "data": [
-        {
-          "name": "jyoti",
-          "email": "pratya0011@gmail.com",
-          "address": "Purbachal Main Road",
-          "number": "54386",
-          "website": "www.google.com",
-          "designation": "js"
-        },
-        {
-          "about": "hi"
-        },
-        {
-          "education": [
-            {
-              "school": "msit",
-              "startDate": "2023-06-16",
-              "endDate": "2023-06-16",
-              "about": "btech"
-            }
-          ]
-        },
-        {
-          "experience": [
-            {
-              "designation": "js",
-              "companny": "",
-              "tenure": "2000",
-              "location": "india",
-              "description": "jhgfdsa",
-              "company": "ms"
-            }
-          ]
-        },
-        {
-          "project": [
-            {
-              "title": "asdaf",
-              "tenure": "fsfdf",
-              "projectUrl": "dfdfdf",
-              "projectDescription": "dfsdfsdf"
-            }
-          ]
-        },
-        {
-          "skills": [
-            {
-              "skills": "Basic C language, HTML,CSS, JAVASCRIPT,REACTJS,NODEJS,MONGODB",
-              "level": "2"
-            }
-          ]
-        }
-      ],
-      "id": 8
     }
   ]
 }

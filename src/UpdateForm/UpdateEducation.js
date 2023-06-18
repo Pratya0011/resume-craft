@@ -48,11 +48,13 @@ function UpdateEducation() {
     navigate("/update/experience");
   };
   return (
-    <div>
-      <h1>Education</h1>
+    <div className="educationResume">
+      <h2>Education</h2>
+      <div className="formContainer">
       <form onSubmit={onSubmitHandler}>
         {educationList.map((data, index) => (
-          <div key={index}>
+          <div key={index} className="extra">
+            <div className='smallbox'>
             <label htmlFor="school">School/Univercity</label>
             <input
               name="school"
@@ -74,6 +76,8 @@ function UpdateEducation() {
                 handleChange(e, index);
               }}
             />
+            </div>
+            <div className='smallbox'>
             <label htmlFor="endDate">End Date</label>
             <input
               name="endDate"
@@ -94,13 +98,14 @@ function UpdateEducation() {
                 handleChange(e, index);
               }}
             />
-             
+             </div>
           </div>
         ))}
 
         <button type="submit" style={{margin: "10px"}}>Save & Next</button>
       </form>
-      <button onClick={addEdu} style={{margin: "10px"}}>Add</button>
+      </div>
+      <div className="btndiv"><button onClick={addEdu} className="addBtn">Add</button></div>
     </div>
   );
 }

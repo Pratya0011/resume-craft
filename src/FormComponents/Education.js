@@ -50,10 +50,12 @@ function Education() {
   return (
     <div className="educationResume">
       <h2>Education</h2>
+      <div className="formContainer">
       <form onSubmit={onSubmitHandler}>
         {educationList.map((data, index) => (
-          <div key={index}>
-            <label htmlFor="school">School/Univercity</label>
+          <div key={index} className="extra">
+            <div className='smallbox'>
+            <label htmlFor="school">School/Univercity:</label>
             <input
             name="school"
               type="text"
@@ -63,7 +65,7 @@ function Education() {
               }}
               required
             />
-            <label htmlFor="startDate">Start Date</label>
+            <label htmlFor="startDate">Start Date:</label>
             <input
             name="startDate"
               type="date"
@@ -72,7 +74,9 @@ function Education() {
                 handleChange(e,index);
               }}
             />
-            <label htmlFor="endDate">End Date</label>
+            </div>
+            <div className='smallbox'>
+            <label htmlFor="endDate">End Date:</label>
             <input
             name="endDate"
               type="date"
@@ -81,7 +85,7 @@ function Education() {
                 handleChange(e,index);
               }}
             />
-            <label htmlFor="about">About Degree/Cirtification</label>
+            <label htmlFor="about">About Degree/Cirtification:</label>
             <input
             name="about"
               type="text"
@@ -90,12 +94,13 @@ function Education() {
                 handleChange(e,index);
               }}
             /> 
+            </div>
           </div>
         ))}
-        
         <button type="submit">Save & Next</button>
       </form>
-      <button onClick={addEdu}>Add</button>
+      </div>
+      <div className="btndiv"><button onClick={addEdu} className="addBtn">Add</button></div>
     </div>
   );
 }

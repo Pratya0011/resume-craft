@@ -20,7 +20,8 @@ e.preventDefault()
  }
   return (
     <div className="aboutResume">
-     
+     <h2>About</h2>
+     <div className="formContainer">
       <form onSubmit={onSubmitHandler}>
         <label htmlFor="about">About</label>
         <textarea
@@ -36,6 +37,7 @@ e.preventDefault()
         />
         <button type="submit">Save & Next</button>
       </form>
+      </div>
     </div>
   );
 }

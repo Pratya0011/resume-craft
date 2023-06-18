@@ -44,10 +44,11 @@ const addProj=()=>{
   return (
     <div className="projectResume">
     <h2>Project</h2>
- 
+ <div className="formContainer">
       <form onSubmit={submitProject}>
         {projectList.map((data,index)=>(
-            <div key={index}>
+            <div key={index} className="extra">
+              <div className='smallbox'>
             <label htmlFor="title">Project Title:</label>
             <input
             name="title"
@@ -62,6 +63,8 @@ const addProj=()=>{
               id="projectTenure"
               onChange={(e) => handleChange(e,index)}
             />
+            </div>
+            <div className='smallbox'>
             <label htmlFor="projectUrl">Project Url:</label>
             <input
             name="projectUrl"
@@ -69,6 +72,7 @@ const addProj=()=>{
               id="projectUrl"
               onChange={(e) => handleChange(e,index)}
             />
+            </div>
             <label htmlFor="projectDescription">Project Description:</label>
             <textarea
             name="projectDescription"
@@ -84,7 +88,8 @@ const addProj=()=>{
         
         <button type="submit">Save & Next</button>
       </form>
-      <button onClick={addProj} className="addProBtn">Add</button>  
+      </div>
+      <div className="btndiv"><button onClick={addProj} className="addBtn">Add</button></div>  
     </div>
   );
 }

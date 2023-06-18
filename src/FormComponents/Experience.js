@@ -49,9 +49,11 @@ function Experience() {
   return (
     <div className="expResume">
     <h2>Your Experience</h2>
+    <div className="formContainer">
       <form onSubmit={onSubmitHandlerExp}>
         {experienceList.map((data, index) => (
-          <div key={index}>
+          <div key={index} className="extra">
+            <div className='smallbox'>
             <label htmlFor="designation">Designation:</label>
             <input
             name="designation"
@@ -70,6 +72,8 @@ function Experience() {
                 handleChange(e,index)
               }}
             />
+            </div>
+            <div className='smallbox'>
             <label htmlFor="tenure">Tenure:</label>
             <input
             name="tenure"
@@ -88,6 +92,7 @@ function Experience() {
                 handleChange(e,index)
               }}
             />
+            </div>
             <label htmlFor="description">Description:</label>
             <input
             name="description"
@@ -103,7 +108,8 @@ function Experience() {
         
         <button type="submit">Save & Next</button>
       </form>
-      <button onClick={handleAddExp}  >Add</button>
+      </div>
+      <div className="btndiv"><button onClick={handleAddExp} className="addBtn">Add</button></div>
     </div>
   );
 }

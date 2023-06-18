@@ -43,7 +43,9 @@ function UpdateSkills() {
     
   }
   return (
-    <div>
+    <div className="skillResume">
+      <h2>Skills</h2>
+      <div className="formContainer">
       <form onSubmit={onSubmitHandler}>
         {skillsList.map((data, index) => (
           <div key={index}>
@@ -57,10 +59,11 @@ function UpdateSkills() {
             <label>Level:</label>
             <input
               name="level"
-              type="number"
+              type="text"
               id="level"
               min="1"
               max="5"
+              placeholder="Beginner intermediate-proficient"
               onChange={(e) => handleChange(e, index)}
             />
           </div>
@@ -68,7 +71,8 @@ function UpdateSkills() {
         
         <button type="submit" style={{margin: "10px"}}>Save & Submit</button>
       </form>
-      <button onClick={addSk} style={{margin: "10px"}}>Add</button>
+      </div>
+      <div className="btndiv"><button onClick={addSk} className="addBtn">Add</button></div>
     </div>
   )
 }
